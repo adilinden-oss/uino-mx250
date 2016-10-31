@@ -1771,9 +1771,7 @@ Mfr no: 1776244-2 &lt;br&gt;
 <symbol name="USB-5P-2S">
 <wire x1="7.62" y1="7.62" x2="-5.08" y2="7.62" width="0.4064" layer="94"/>
 <wire x1="-5.08" y1="7.62" x2="-5.08" y2="-7.62" width="0.4064" layer="94"/>
-<wire x1="-5.08" y1="-7.62" x2="-2.54" y2="-7.62" width="0.4064" layer="94"/>
-<wire x1="-2.54" y1="-7.62" x2="7.62" y2="-7.62" width="0.4064" layer="94"/>
-<wire x1="-2.54" y1="-7.62" x2="-2.54" y2="-10.16" width="0.1524" layer="94"/>
+<wire x1="-5.08" y1="-7.62" x2="7.62" y2="-7.62" width="0.4064" layer="94"/>
 <text x="7.62" y="-3.175" size="2.54" layer="94" ratio="10" rot="R90">USB</text>
 <text x="-5.08" y="8.89" size="1.778" layer="95">&gt;NAME</text>
 <text x="2.54" y="-10.16" size="1.778" layer="96">&gt;VALUE</text>
@@ -1782,7 +1780,7 @@ Mfr no: 1776244-2 &lt;br&gt;
 <pin name="VBUS" x="-7.62" y="5.08" length="short" direction="pas"/>
 <pin name="ID" x="-7.62" y="-2.54" length="short" direction="pas"/>
 <pin name="S1" x="0" y="-10.16" visible="off" length="short" direction="pas" rot="R90"/>
-<pin name="S2" x="-2.54" y="-10.16" visible="off" length="point" direction="pas" rot="R90"/>
+<pin name="S2" x="-2.54" y="-10.16" visible="off" length="short" direction="pas" rot="R90"/>
 <pin name="GND" x="-7.62" y="-5.08" length="short" direction="pas"/>
 </symbol>
 <symbol name="TS2">
@@ -18191,7 +18189,7 @@ http://www.suntsuinc.com</description>
 <part name="JP4" library="SparkFun" deviceset="M08" device="1X08"/>
 <part name="GND19" library="supply1" deviceset="GND" device=""/>
 <part name="GND20" library="supply1" deviceset="GND" device=""/>
-<part name="J3" library="adi-misc" deviceset="USB_MICRO_B_2.0-TH" device="" value=""/>
+<part name="J3" library="adi-misc" deviceset="USB_MICRO_B_2.0-TH" device="" value="USB_MICRO_B_2.0-TH"/>
 <part name="J2" library="SparkFun-Connectors" deviceset="M06" device="LOCK"/>
 <part name="SUPPLY1" library="SparkFun-Aesthetics" deviceset="VCC" device=""/>
 <part name="GND2" library="supply1" deviceset="GND" device=""/>

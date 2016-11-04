@@ -56,7 +56,7 @@
 <layer number="90" name="Modules" color="5" fill="1" visible="yes" active="yes"/>
 <layer number="91" name="Nets" color="2" fill="1" visible="yes" active="yes"/>
 <layer number="92" name="Busses" color="1" fill="1" visible="yes" active="yes"/>
-<layer number="93" name="Pins" color="2" fill="1" visible="yes" active="yes"/>
+<layer number="93" name="Pins" color="2" fill="1" visible="no" active="yes"/>
 <layer number="94" name="Symbols" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="95" name="Names" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="96" name="Values" color="7" fill="1" visible="yes" active="yes"/>
@@ -18189,24 +18189,24 @@ http://www.suntsuinc.com</description>
 <part name="JP4" library="SparkFun" deviceset="M08" device="1X08"/>
 <part name="GND19" library="supply1" deviceset="GND" device=""/>
 <part name="GND20" library="supply1" deviceset="GND" device=""/>
-<part name="J3" library="adi-misc" deviceset="USB_MICRO_B_2.0-TH" device="" value="USB_MICRO_B_2.0-TH"/>
+<part name="J3" library="adi-misc" deviceset="USB_MICRO_B_2.0-TH" device="" value="Micro USB"/>
 <part name="J2" library="SparkFun-Connectors" deviceset="M06" device="LOCK"/>
 <part name="SUPPLY1" library="SparkFun-Aesthetics" deviceset="VCC" device=""/>
 <part name="GND2" library="supply1" deviceset="GND" device=""/>
-<part name="U1" library="adi-misc" deviceset="V_REG_MCP170X" device="" value="L4931"/>
+<part name="U1" library="adi-misc" deviceset="V_REG_MCP170X" device="" value="MCP1702-33"/>
 <part name="F1" library="adi-misc" deviceset="FUSE_PTC" device="-TH"/>
 <part name="F2" library="adi-misc" deviceset="FUSE_PTC" device="-TH"/>
-<part name="C7" library="rc-master" deviceset="C_" device="C025-040X018"/>
-<part name="C1" library="rc-master" deviceset="CP_" device="TT025-040"/>
-<part name="D1" library="diode" deviceset="SCHOTTKY-DIODE" device="DO35-7"/>
-<part name="D2" library="diode" deviceset="SCHOTTKY-DIODE" device="DO35-7"/>
+<part name="C7" library="rc-master" deviceset="C_" device="C025-040X018" value="100n"/>
+<part name="C1" library="rc-master" deviceset="CP_" device="TT025-040" value="4u7"/>
+<part name="D1" library="diode" deviceset="SCHOTTKY-DIODE" device="DO35-7" value="SB140TA"/>
+<part name="D2" library="diode" deviceset="SCHOTTKY-DIODE" device="DO35-7" value="SB140TA"/>
 <part name="LED2" library="led" deviceset="LED" device="3MM" value="Green"/>
 <part name="LED1" library="led" deviceset="LED" device="3MM" value="Blue"/>
 <part name="S2" library="adi-misc" deviceset="TL1100X" device="" value=""/>
 <part name="S1" library="adi-misc" deviceset="TL1100X" device="" value=""/>
-<part name="R2" library="rc-master" deviceset="R_" device="X0207/7"/>
-<part name="R1" library="rc-master" deviceset="R_" device="X0207/7"/>
-<part name="C6" library="rc-master" deviceset="CP_" device="TT025-040"/>
+<part name="R2" library="rc-master" deviceset="R_" device="X0207/7" value="470"/>
+<part name="R1" library="rc-master" deviceset="R_" device="X0207/7" value="470"/>
+<part name="C6" library="rc-master" deviceset="CP_" device="TT025-040" value="4u7"/>
 <part name="GND13" library="supply1" deviceset="GND" device=""/>
 <part name="GND12" library="supply1" deviceset="GND" device=""/>
 <part name="GND9" library="supply1" deviceset="GND" device=""/>
@@ -18219,27 +18219,27 @@ http://www.suntsuinc.com</description>
 <part name="GND16" library="supply1" deviceset="GND" device=""/>
 <part name="U2" library="adi-pic" deviceset="PIC32MX250B" device="-P"/>
 <part name="SUPPLY4" library="SparkFun-Aesthetics" deviceset="VCC" device=""/>
-<part name="R3" library="rc-master" deviceset="R_" device="X0207/7"/>
-<part name="R5" library="rc-master" deviceset="R_" device="X0207/7"/>
-<part name="R4" library="rc-master" deviceset="R_" device="X0207/7"/>
-<part name="R6" library="rc-master" deviceset="R_" device="X0207/7"/>
+<part name="R3" library="rc-master" deviceset="R_" device="X0207/7" value="10k"/>
+<part name="R5" library="rc-master" deviceset="R_" device="X0207/7" value="10k"/>
+<part name="R4" library="rc-master" deviceset="R_" device="X0207/7" value="10k"/>
+<part name="R6" library="rc-master" deviceset="R_" device="X0207/7" value="10k"/>
 <part name="GND17" library="supply1" deviceset="GND" device=""/>
 <part name="GND18" library="supply1" deviceset="GND" device=""/>
 <part name="SUPPLY6" library="SparkFun-Aesthetics" deviceset="VCC" device=""/>
 <part name="SUPPLY2" library="SparkFun-Aesthetics" deviceset="VCC" device=""/>
 <part name="GND11" library="supply1" deviceset="GND" device=""/>
-<part name="C3" library="rc-master" deviceset="C_" device="C025-040X018"/>
+<part name="C3" library="rc-master" deviceset="C_" device="C025-040X018" value="10u"/>
 <part name="GND10" library="supply1" deviceset="GND" device=""/>
 <part name="GND3" library="supply1" deviceset="GND" device=""/>
-<part name="Y1" library="crystal" deviceset="CRYTAL" device="HC49S"/>
-<part name="C4" library="rc-master" deviceset="C_" device="C025-040X018"/>
-<part name="C5" library="rc-master" deviceset="C_" device="C025-040X018"/>
+<part name="Y1" library="crystal" deviceset="CRYTAL" device="HC49S" value="8MHz"/>
+<part name="C4" library="rc-master" deviceset="C_" device="C025-040X018" value="27p"/>
+<part name="C5" library="rc-master" deviceset="C_" device="C025-040X018" value="27p"/>
 <part name="GND8" library="supply1" deviceset="GND" device=""/>
 <part name="GND7" library="supply1" deviceset="GND" device=""/>
 <part name="SUPPLY5" library="SparkFun-Aesthetics" deviceset="VCC" device=""/>
-<part name="C8" library="rc-master" deviceset="C_" device="C025-040X018"/>
+<part name="C8" library="rc-master" deviceset="C_" device="C025-040X018" value="100n"/>
 <part name="GND14" library="supply1" deviceset="GND" device=""/>
-<part name="C2" library="rc-master" deviceset="C_" device="C025-040X018"/>
+<part name="C2" library="rc-master" deviceset="C_" device="C025-040X018" value="100n"/>
 <part name="GND6" library="supply1" deviceset="GND" device=""/>
 </parts>
 <sheets>
@@ -18256,17 +18256,29 @@ http://www.suntsuinc.com</description>
 <instance part="JP4" gate="G$1" x="195.58" y="63.5" rot="R180"/>
 <instance part="GND19" gate="1" x="187.96" y="127"/>
 <instance part="GND20" gate="1" x="187.96" y="48.26"/>
-<instance part="J3" gate="G$1" x="2.54" y="83.82" rot="MR0"/>
+<instance part="J3" gate="G$1" x="2.54" y="83.82" smashed="yes" rot="MR0">
+<attribute name="NAME" x="7.62" y="95.25" size="1.778" layer="95" rot="MR0"/>
+<attribute name="VALUE" x="7.62" y="92.456" size="1.778" layer="96" rot="MR0"/>
+</instance>
 <instance part="J2" gate="G$1" x="0" y="116.84" rot="MR180"/>
 <instance part="SUPPLY1" gate="G$1" x="7.62" y="124.46" rot="MR0"/>
 <instance part="GND2" gate="1" x="7.62" y="104.14" rot="MR0"/>
-<instance part="U1" gate="G$1" x="43.18" y="160.02"/>
+<instance part="U1" gate="G$1" x="43.18" y="160.02" smashed="yes">
+<attribute name="NAME" x="45.72" y="152.4" size="1.778" layer="95"/>
+<attribute name="VALUE" x="36.322" y="164.338" size="1.778" layer="96"/>
+</instance>
 <instance part="F1" gate="G$1" x="12.7" y="157.48"/>
 <instance part="F2" gate="G$1" x="20.32" y="86.36"/>
 <instance part="C7" gate="G$1" x="68.58" y="152.4" rot="R90"/>
 <instance part="C1" gate="G$1" x="30.48" y="152.4" rot="R90"/>
-<instance part="D1" gate="G$1" x="22.86" y="170.18"/>
-<instance part="D2" gate="G$1" x="22.86" y="152.4" rot="R90"/>
+<instance part="D1" gate="G$1" x="22.86" y="170.18" smashed="yes">
+<attribute name="NAME" x="20.955" y="172.085" size="1.778" layer="95"/>
+<attribute name="VALUE" x="17.145" y="166.37" size="1.778" layer="96"/>
+</instance>
+<instance part="D2" gate="G$1" x="22.86" y="152.4" smashed="yes" rot="R90">
+<attribute name="NAME" x="20.955" y="150.495" size="1.778" layer="95" rot="R90"/>
+<attribute name="VALUE" x="26.67" y="146.685" size="1.778" layer="96" rot="R90"/>
+</instance>
 <instance part="LED2" gate="G$1" x="111.76" y="167.64"/>
 <instance part="LED1" gate="G$1" x="96.52" y="167.64"/>
 <instance part="S2" gate="G$1" x="147.32" y="152.4" rot="R90"/>
@@ -18298,7 +18310,10 @@ http://www.suntsuinc.com</description>
 <instance part="C3" gate="G$1" x="43.18" y="63.5" rot="R90"/>
 <instance part="GND10" gate="1" x="43.18" y="50.8"/>
 <instance part="GND3" gate="1" x="12.7" y="66.04"/>
-<instance part="Y1" gate="G$1" x="53.34" y="99.06" rot="R90"/>
+<instance part="Y1" gate="G$1" x="53.34" y="99.06" smashed="yes" rot="R90">
+<attribute name="NAME" x="51.054" y="97.79" size="1.778" layer="95" rot="R90"/>
+<attribute name="VALUE" x="57.658" y="96.52" size="1.778" layer="96" rot="R90"/>
+</instance>
 <instance part="C4" gate="G$1" x="45.72" y="104.14"/>
 <instance part="C5" gate="G$1" x="45.72" y="93.98"/>
 <instance part="GND8" gate="1" x="38.1" y="93.98" rot="R270"/>

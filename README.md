@@ -1,14 +1,14 @@
-##\*uino-mx250
+## \*uino-mx250
 
 The \*uino-mx250 was designed for my son Mathew. As a mostly though-hole design, it should be easy to assemble even for a beginner.  The only surface mount component is the micro USB connector. Personally I much prefer micro USB over the full sized or mini connector. Unfortunately I was unable to find a through-hole micro USB.  Having the one surface mounted component was a compromise I was willing to take.
 
 The board uses the PIC32MX250F128B which is available in a 28 pin through-hole package and includes an on-board USB peripheral.  The PIC32MX250F128B is supported by [chipKIT Core](http://chipkit.net/wiki/index.php?title=ChipKIT_core) for the [Arduino](https://www.arduino.cc/) development environment.  Select the chipKIT DP32.
 
-###Important Note
+### Important Note
 
 PCB have been ordered from SeeedStudio FusionPCB service. There is no working sample yet.
 
-###Licensing
+### Licensing
 
 This work is licensed under a Creative Commons Attribution-ShareAlike 3.0 Unported License, CC BY-SA.
 
@@ -16,14 +16,14 @@ You are free to copy, distribute and transmit the work. You must attribute the w
 
 Please refer to [http://creativecommons.org/licenses/by-sa/3.0/] for the license.
 
-###Credit
+### Credit
 
 The \*uino-mx250 is derived from previous work done by:
 
 - The [chipKIT DP32](https://reference.digilentinc.com/chipkit_dp32/refmanual)
 - The [HelvePic32](http://www.mathias-wilhelm.de/arduino/embedded-boards/helvepic32)
 
-###Details
+### Details
 
 Aside from teaching my son how to solder, the motivation for the \*uino-mx250 was to create a through-hole chipKIT board that can make use of existing shields.  The \*uino-mx250 is intended to operate at 3.3V as this is the operating voltage of the PIC32MX250F128B.
 
@@ -31,7 +31,7 @@ Mostly due to the use of the USB peripheral, the PIC32MX250F128B has less availa
 
 PIC32MX250F128B I/O is mapped to shield pins to preserve the special functions of the digital pins.  Thanks to PIC32 mappable peripheral pins I2C, SPI, serial and PWM functions are were they should be. Still, some compromises were necessary, either D3 or D11 can use OC2 for PWM, but not both at the same time.
 
-###Pin Mapping
+### Pin Mapping
 
 ```
         PIC32MX250F128B                                     Peripheral
@@ -59,4 +59,3 @@ A4 D9   AN4/C1INB/C2IND/RPB2/SDA2/CTED13/RB2                SDA2        SDA
 A5 D8   AN5/C1INA/C2INC/RTCC/RPB3/SCL2/RB3                  SCL2        SCL
 
 ```
-
